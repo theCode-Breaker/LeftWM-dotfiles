@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+SCRIPTPATH="$( cd "$(dirname "$0")" || return ; pwd -P )"
+
+#set background
+if [ -x "$(command -v feh)" ]; then
+  feh --no-fehbg --bg-fill "$SCRIPTPATH"/down.jpg
+fi
+
+leftwm-command UnloadTheme
