@@ -195,7 +195,7 @@ definitions_version = 1
 
 [[repos.themes]]
 name = "leftwm"
-directory = "/home/adarsh/.config/leftwm/themes/leftwm"
+directory = "~/.config/leftwm/themes/leftwm"
 version = "0.0.0"
 leftwm_versions = "*"
 current = true
