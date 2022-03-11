@@ -194,8 +194,8 @@ name = "LOCAL"
 definitions_version = 1
 
 [[repos.themes]]
-name = "leftwm"
-directory = "~/.config/leftwm/themes/leftwm"
+name = "neutron"
+directory = "/home/adarsh/.config/leftwm/themes/neutron"
 version = "0.0.0"
 leftwm_versions = "*"
 current = true

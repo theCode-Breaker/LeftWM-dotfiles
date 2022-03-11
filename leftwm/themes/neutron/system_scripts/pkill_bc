@@ -9,7 +9,7 @@ process_id=`/bin/ps -fu $USER| grep "background-changer" | grep -v "grep" | awk 
 kill $process_id
 
 #-- Now freshly start the process in the background --#
-bash ~/.config/system_scripts/background-changer &
+bash ~/.config/leftwm/themes/neutron/system_scripts/background-changer &
 
 
 #-- You can add multiple processes here to prevent their respawns --#

@@ -11,7 +11,7 @@ disable_current_tag_swap = false
 
 [[keybind]]
 command = "Execute"
-value = "rofi -show drun -theme ~/.config/rofi/rofi-left.rasi"
+value = "rofi -show drun -theme ~/.config/leftwm/themes/neutron/rofi/rofi-left.rasi"
 modifier = ["modkey"]
 key = "d"
 
@@ -29,7 +29,7 @@ key = "b"
 
 [[keybind]]
 command = "Execute"
-value = "pcmanfm-qt"
+value = "pcmanfm"
 modifier = ["modkey", "Shift"]
 key = "f"
 
@@ -40,55 +40,44 @@ modifier = ["modkey"]
 key = "Print"
 
 ##############################
-#       Reload Polybar
-##############################
-[[keybind]]
-command = "Execute"
-value = "launch.sh"
-modifier = ["modkey"]
-key = "p"
-
-##############################
 ### Keyboard Hotkeys
 ##############################
-
-
 ##  Volume
 ## Settings
 
 [[keybind]]
 command = "Execute"
-value = "volume down"
+value = "~/.config/leftwm/themes/neutron/system_scripts/volume down"
 modifier = []
 key = "XF86XK_AudioLowerVolume"
 
 [[keybind]]
 command = "Execute"
-value = "volume up"
+value = "~/.config/leftwm/themes/neutron/system_scripts/volume up"
 modifier = []
 key = "XF86XK_AudioRaiseVolume"
 
 [[keybind]]
 command = "Execute"
-value = "volume mute"
+value = "~/.config/leftwm/themes/neutron/system_scripts/volume mute"
 modifier = []
 key = "XF86XK_AudioMute"
 
 [[keybind]]
 command = "Execute"
-value = "volume pause"
+value = "~/.config/leftwm/themes/neutron/system_scripts/volume pause"
 modifier = []
 key = "XF86XK_AudioPlay"
 
 [[keybind]]
 command = "Execute"
-value = "volume previous"
+value = "~/.config/leftwm/themes/neutron/system_scripts/volume previous"
 modifier = []
 key = "XF86XK_AudioPrev"
 
 [[keybind]]
 command = "Execute"
-value = "volume next"
+value = "~/.config/leftwm/themes/neutron/system_scripts/volume next"
 modifier = []
 key = "XF86XK_AudioNext"
 
@@ -97,13 +86,13 @@ key = "XF86XK_AudioNext"
 
 [[keybind]]
 command = "Execute"
-value = "brightness down"
+value = "~/.config/leftwm/themes/neutron/system_scripts/brightness down"
 modifier = []
 key = "XF86XK_MonBrightnessDown"
 
 [[keybind]]
 command = "Execute"
-value = "brightness up"
+value = "~/.config/leftwm/themes/neutron/system_scripts/brightness up"
 modifier = []
 key = "XF86XK_MonBrightnessUp"
 
@@ -130,13 +119,13 @@ key = "x"
 
 [[keybind]]
 command = "Execute"
-value = "$HOME/.config/system_scripts/session_lock"
+value = "$HOME/.config/leftwm/themes/neutron/system_scripts/session_lock"
 modifier = ["modkey", "Control"]
 key = "l"
 
 [[keybind]]
 command = "Execute"
-value = "$HOME/.config/rofi/leave/powermenu.sh"
+value = "$HOME/.config/leftwm/themes/neutron/rofi/leave/powermenu.sh"
 modifier = ["modkey", "Shift"]
 key = "p"
 

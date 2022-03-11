@@ -1,15 +1,4 @@
 #!/bin/bash
-
-#----------------------------------------------------------------
-# 
-# Author : DN-debug
-# Description: Randomize the background on every lock
-# I'm using default i3lock and no other fancy stuff
-# License : GPLv3
-# Check https://mywiki.wooledge.org/BashFAQ/045 for implementations
-#
-#----------------------------------------------------------------
-
 MUTEX="${HOME}/.config/lock/i3-lock"
 LOG="${HOME}/.config/lock/lock-log"
 NOLOCK="${HOME}/.config/lock/NOLOCK"

@@ -2,7 +2,7 @@
 ## Credits to  @adi1090x
 ## changes made by DN-debug
 
-dir="$HOME/.config/rofi/leave"
+dir="$( cd "$(dirname "$0")" ; pwd -P )"
 rofi_command="rofi -theme $dir/logMenu.rasi"
 
 # Options
